@@ -46,5 +46,6 @@ This project builds and evaluates predictive models to classify individuals as *
 
 Example:
 ```r
+source("scripts/SourceCode.R")
 source("scripts/Logistic_Regression_Model.R")
 source("scripts/DecisionTree_Model.R")

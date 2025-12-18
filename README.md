@@ -4,9 +4,6 @@ This project builds and evaluates predictive models to classify individuals as *
 - Logistic Regression
 - Decision Tree (rpart)
 
-# Predictive Modeling for Health Risk Classification
-*Using Logistic Regression and Decision Tree Models*
-
 ---
 
 ## Project Overview

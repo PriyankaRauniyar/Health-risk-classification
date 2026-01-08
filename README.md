@@ -58,23 +58,23 @@ The dataset contains individual-level health and lifestyle information, includin
 ## Model Performance Evaluation
 
 ### Logistic Regression
-- **Training Accuracy:** 88.3%  
-- **Testing Accuracy:** 87.8%  
+- **Training Accuracy:** 87%  
+- **Testing Accuracy:** 87.4%  
 - **Type I Error (False Positive Rate):** 32.25%  
 - **Type II Error (False Negative Rate):** 4.3%  
 
 *The model shows strong generalization and high sensitivity in detecting high-risk individuals, which is desirable for health screening applications.*
-
+![Logistic Regression Model Accuracy](figures/model_Acc.png)
 ---
 
 ### Decision Tree
-- **Training Accuracy:** 97.1%  
+- **Training Accuracy:** 97%  
 - **Testing Accuracy:** 97.4%  
 - **Type I Error (False Positive Rate):** 4.6%  
 - **Type II Error (False Negative Rate):** 1.8%  
 
 *The decision tree achieves superior accuracy with low error rates and offers highly interpretable decision rules.*
-![Decission Tree](figures/decision_tree.png)
+![Decision Tree Model Accuracy](figures/model_Accuracy.png)
 ---
 
 ## Key Visualizations
@@ -85,16 +85,17 @@ The dataset contains individual-level health and lifestyle information, includin
   - Age vs Health Risk  
   - Sleep Duration vs Health Risk  
   - BMI vs Health Risk  
-- Decision Tree visualization showing key splits  
+- Decision Tree visualization showing key splits
+ ![Decision Tree Model Accuracy](figures/decision_tree.png) 
 
 ---
 
 ## Results Summary
 
-- **BMI, age, and sleep duration** are the strongest predictors of health risk  
-- Logistic regression provides smooth probability trends  
-- Decision tree offers intuitive, rule-based explanations  
-- Both models generalize well to unseen data  
+- Decision Tree outperformed Logistic Regression.
+- It handled non-linear patterns and interactions in lifestyle data more effectively.
+- Logistic Regression worked well but was limited by its linear assumptions and categorical encoding.
+- Overall, the Decision Tree is the better fit and provides clear, interpretable rules for health-risk prediction.
 
 ---
 ## Project Files

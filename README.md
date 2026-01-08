@@ -74,7 +74,7 @@ The dataset contains individual-level health and lifestyle information, includin
 - **Type II Error (False Negative Rate):** 1.8%  
 
 *The decision tree achieves superior accuracy with low error rates and offers highly interpretable decision rules.*
-![Decission Tree](figures/decission_tree.png)
+![Decission Tree](figures/decision_tree.png)
 ---
 
 ## Key Visualizations

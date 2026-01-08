@@ -68,7 +68,7 @@ The dataset contains individual-level health and lifestyle information, includin
 
 *The model shows strong generalization and high sensitivity in detecting high-risk individuals, which is desirable for health screening applications.*
 
-![Logistic Regression Model Accuracy](figures/Model_Acc.png)
+![Logistic Regression Model Accuracy](figures/Model_Accuracy.png)
 ---
 
 ### Decision Tree
@@ -79,7 +79,7 @@ The dataset contains individual-level health and lifestyle information, includin
 
 *The decision tree achieves superior accuracy with low error rates and offers highly interpretable decision rules.*
 
-![Decision Tree Model Accuracy](figures/Model_Accuracy.png)
+![Decision Tree Model Accuracy](figures/Model_Acc.png)
 ---
 
 ## Key Visualizations
